@@ -36,7 +36,3 @@ if __name__=="__main__":
     tensor1 = dct_2d(input_tensor)
     tensor2 = idct_2d(tensor1)
     print(torch.allclose(input_tensor, tensor2, atol=1e-6))
-    # print(tensor3.shape)
-    # tensor4 = concat_frequency(tensor3,2)
-    # print(tensor4.shape)
-    # print(torch.allclose(input_tensor, tensor4, atol=1e-6))
